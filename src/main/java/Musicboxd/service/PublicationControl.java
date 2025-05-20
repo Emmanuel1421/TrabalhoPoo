@@ -19,12 +19,6 @@ public class PublicationControl extends Music {
         Publication newPublication = new Publication();
         List<String> publicationOutput = new ArrayList<>();
 
-        //newPublication.setPublicationId(indexPublication);
-
-//        int id = 0;
-//        int PublicationId = id + 1;
-//        PublicationId.add(PublicationId);
-
         System.out.println("\n--------------- Digite a música ---------------");
         String songName = scn.nextLine();
 
@@ -67,13 +61,6 @@ public class PublicationControl extends Music {
         for (String publications : publicationOutput) {
             System.out.println(publications);
         }
-
-             //cria uma variavel temporaria que percorre os dados de publication e imprime
-
-        //        public void EditPublication() {
-        //
-        //        }
-
     }
 
     public void editPublication() {
@@ -121,9 +108,9 @@ public class PublicationControl extends Music {
         System.out.println("Publicação atualizada!");
     }
 
-    public void addMusic() {
-
-    }
+//    public void addMusic() {
+//##todo implementar futuramente 
+//    }
 
     public void deletePublication() {
 
@@ -150,9 +137,9 @@ public class PublicationControl extends Music {
 
     }
 
-    public void FeatureInProfile() {
-
-    }//
+ //   public void FeatureInProfile() {
+//##todo implementar futuramente
+//    }
 
 
 
